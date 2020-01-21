@@ -17,6 +17,7 @@ public class Duke {
         while (!input.equals("bye")) {
             if (input.equals(("list"))) {
                 printHorizontalLine();
+                printIndented("Here are the tasks in your list: ");
                 for (int i = 0; i < tasks.size(); i++) {
                     printIndented(String.format("%d.%s", i + 1, tasks.get(i)));
                 }
