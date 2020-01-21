@@ -23,7 +23,6 @@ public class Duke {
                 printHorizontalLine();
             } else if (input.equals(("blah"))) {
                 printHorizontalLine();
-                printIndented("Here are the tasks in your list: ");
                 printIndented("blah");
                 printHorizontalLine();
             } else if (input.contains("done")) {
